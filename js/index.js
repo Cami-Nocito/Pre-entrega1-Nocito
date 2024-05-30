@@ -35,4 +35,4 @@ if (Prestamo ==""){
 else[
     alert("Su monto es:" + Prestamo)
 ]
-
+console.log("Su prestamo es " + Prestamo)
