@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Botones y Opciones</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h1>Bienvenidos!</h1>
-    <script src="./js/index.js"></script>
-</body>
+    <div class="container">
+        <button id="showOptionsBtn">Mostrar Opciones</button>
+        <button id="showInputBtn">Mostrar Campo de Texto</button>
 
+        <div id="options" class="hidden">
+            <p>Opción 1</p>
+            <p>Opción 2</p>
+            <p>Opción 3</p>
+        </div>
+
+        <div id="inputField" class="hidden">
+            <input type="text" placeholder="Escribe algo aquí">
+        </div>
+    </div>
+
+    <script src="./js/inicio.js"></script>
+</body>
 </html>
+
